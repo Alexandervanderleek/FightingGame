@@ -1,0 +1,56 @@
+.playerHealth {
+    background-color: red;
+    height: 30px;
+    width: 100%;
+}
+.enemyHealth {
+    background-color: red;
+    height: 30px;
+}
+
+.enemyAbs {
+    position: absolute;
+    background: #818cf8;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+
+.playerAbs {
+    position: absolute;
+    background: #818cf8;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.main {
+    position: relative;
+    display: inline-block;
+}
+
+.secondary {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.timer {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 4px solid white
+}
